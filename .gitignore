@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+*.log
+
+# Temporary lock files Word creates while a document is open
+~$*
+
+# SQLite database files
+server/data/*.db
+server/data/*.db-*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Uploaded sample images
+server/uploads/*
+!server/uploads/.gitkeep
